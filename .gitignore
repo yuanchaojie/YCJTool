@@ -1,7 +1,7 @@
-
+# OS X
+.DS_Store
 
 # 忽略用户信息文件夹
-YCJTool/YCJTool.xcodeproj/project.xcworkspace/xcuserdata/*
-YCJTool/YCJTool.xcodeproj/xcuserdata/*
-#系统默认文件
-.DS_Store
+xcuserdata/
+*.xcuserdata
+
