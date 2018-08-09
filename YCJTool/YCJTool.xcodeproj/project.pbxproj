@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5A385B27211AD11000E13502 /* YCJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A385B25211AD11000E13502 /* YCJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A385B2E211AD15100E13502 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A385B2D211AD15100E13502 /* test.swift */; };
+		5AD40524211C4194001B6264 /* CJMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD40523211C4194001B6264 /* CJMacro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A385B22211AD11000E13502 /* YCJTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YCJTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A385B25211AD11000E13502 /* YCJTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCJTool.h; sourceTree = "<group>"; };
 		5A385B26211AD11000E13502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A385B2D211AD15100E13502 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		5AD40523211C4194001B6264 /* CJMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJMacro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			children = (
 				5A385B25211AD11000E13502 /* YCJTool.h */,
 				5A385B26211AD11000E13502 /* Info.plist */,
-				5A385B2D211AD15100E13502 /* test.swift */,
+				5AD40523211C4194001B6264 /* CJMacro.swift */,
 			);
 			path = YCJTool;
 			sourceTree = "<group>";
@@ -134,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A385B2E211AD15100E13502 /* test.swift in Sources */,
+				5AD40524211C4194001B6264 /* CJMacro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
