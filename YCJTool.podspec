@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
   s.name         = 'YCJTool'
   s.summary      = 'iOS 实用宏，分类，网络请求......'
-  s.version      = '1.0.2'
+  s.version      = '1.0.3'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'yuanchaojie' => 'yuanchaojie07@gmail.com' }
   s.social_media_url = 'https://yuanchaojie.github.io/#blog'
