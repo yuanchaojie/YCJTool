@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A385B27211AD11000E13502 /* YCJTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A385B25211AD11000E13502 /* YCJTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AD40524211C4194001B6264 /* CJMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD40523211C4194001B6264 /* CJMacro.swift */; };
+		5AD40526211D252E001B6264 /* YCJTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD40525211D252E001B6264 /* YCJTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A385B22211AD11000E13502 /* YCJTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YCJTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A385B25211AD11000E13502 /* YCJTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCJTool.h; sourceTree = "<group>"; };
 		5A385B26211AD11000E13502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AD40523211C4194001B6264 /* CJMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJMacro.swift; sourceTree = "<group>"; };
+		5AD40525211D252E001B6264 /* YCJTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCJTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +48,9 @@
 		5A385B24211AD11000E13502 /* YCJTool */ = {
 			isa = PBXGroup;
 			children = (
-				5A385B25211AD11000E13502 /* YCJTool.h */,
 				5A385B26211AD11000E13502 /* Info.plist */,
 				5AD40523211C4194001B6264 /* CJMacro.swift */,
+				5AD40525211D252E001B6264 /* YCJTool.swift */,
 			);
 			path = YCJTool;
 			sourceTree = "<group>";
@@ -62,7 +62,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A385B27211AD11000E13502 /* YCJTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD40526211D252E001B6264 /* YCJTool.swift in Sources */,
 				5AD40524211C4194001B6264 /* CJMacro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
